@@ -3,15 +3,15 @@ module.exports = {
     'mode'         : 'production',
 // do you want your webclient to allow users to connect to any game => true
 // do you want your webclient to connect users only to your game => false
-    'connectAnywhere': true,
+    'connectAnywhere': false,
 
 // if you set this to port 80, you must run the server as root
-    'port'         : 5555,
+    'port'         : 5000,
 
 // specific ip is optional (if your server has more than one)
 //    'ip'           : '208.52.189.89',
 
-    'socketUrl'    : 'http://localhost:5555',
+    'socketUrl'    : 'http://localhost:5000',
     'socketUrlSSL' : '',
     'poweredBy'    : 'dome-client.js',
     'session'      : {
